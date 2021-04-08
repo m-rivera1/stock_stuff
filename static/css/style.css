@@ -1,0 +1,88 @@
+main {
+    width: 100% !important;
+}
+
+#logo {
+    padding: 10px;
+    margin-left: 10px;
+    float: left;
+    border-radius: 15px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#navbar {
+    float: right;
+}
+
+#navbar ul li {
+    padding-right: 1em;
+}
+
+#predict {
+    color: #bae755 !important;
+    border-color: #bae755 !important;
+    width: fit-content;
+    height: min-content;
+}
+
+#predict:hover {
+    color: #fff !important;
+    font-weight: bold !important;
+}
+
+.search-container {
+    position: relative;
+    left: 250px;
+    padding-top: 5%;
+    margin-right: 0px !important;
+    width: 800px;
+    height: 44px;
+}
+
+#searchform {
+    background-color: rgba(212, 212, 212, 0.1);
+    height: 44px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+input {
+    all: unset;
+    font: 16px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+::placeholder {
+    color: #fff;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    width: 88px;
+    height: 88px;
+}
+
+svg {
+    color: #fff;
+    fill: currentColor;
+    border: .5px solid white;
+    border-radius: 0px 5px 5px 0px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    position: relative;
+    left: 18px;
+}
